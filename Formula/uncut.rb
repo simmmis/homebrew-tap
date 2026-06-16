@@ -1,14 +1,14 @@
 class Uncut < Formula
   desc "Uncut CLI"
   homepage "https://github.com/simmmis/uncut"
-  version "0.1.0"
+  version "0.1.1"
 
   if Hardware::CPU.arm?
-    url "https://github.com/simmmis/uncut/releases/download/v0.1.0/uncut-darwin-arm64.tar.gz"
-    sha256 "4f3ed5e35ba34c8f9f7820a506ed34ec343fab5b87a636cf459138b1811d76ba"
+    url "https://github.com/simmmis/uncut/releases/download/v0.1.1/uncut-darwin-arm64.tar.gz"
+    sha256 "d4e4711b96af6858034161fa653fc0c4ad2d421a91625d17c1b8c33808ff268d"
   else
-    url "https://github.com/simmmis/uncut/releases/download/v0.1.0/uncut-darwin-amd64.tar.gz"
-    sha256 "7db0b27b09ea4cc31a73e9a0f331fa2c4b15c79ae49198c696a649c4dfaf1024"
+    url "https://github.com/simmmis/uncut/releases/download/v0.1.1/uncut-darwin-amd64.tar.gz"
+    sha256 "b06ff8e05f0ee9432e6c3eb57629b1ed7d8ce144cc04209cb4bf34af7a4e3243"
   end
 
   def install
